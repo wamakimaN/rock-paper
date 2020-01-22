@@ -5,7 +5,7 @@ class Config:
     General configuration parent class
     '''
     SECRET_KEY = 'youwillneverknowmysecret'
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///myposts.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///gamedata.db'
 
 
 
