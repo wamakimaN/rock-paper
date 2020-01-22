@@ -5,6 +5,8 @@ from ..models import User
 from wtforms import ValidationError
 
 # form for registration
+class RegistrationForm(FlaskForm):
+    username
 
 
 

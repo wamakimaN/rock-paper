@@ -11,4 +11,4 @@ class User(UserMixin,db.Model):
     score = db.Column(db.Integer)
 
     def __repr__(self):
-        return f"User('{self.username}')"
+        return f"User('{self.username}','{self.score}')"
